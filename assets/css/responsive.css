@@ -1,0 +1,293 @@
+/* PC*/
+@media (min-width: 1025px){
+
+}
+
+/* Mobile and Tablet */
+@media (max-width: 1024px){
+    #header{
+        width: 100%;
+        position: fixed;
+        padding: 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        z-index: 1;
+    }
+    #header .nav-bar{
+        display: block;
+    }
+    .header-fixed{
+        height: 70px !important;
+    }
+    .members-logo img{
+        height: 60px;
+    }
+    .members-logo:first-child img{
+        height: 75px;
+    }
+    .member-2{
+        margin-left: 60px;
+    }
+    .member-3{
+        margin-left: 55px;
+    }
+    .menu{
+        display: none;
+    }
+    .admin-btn{
+        display: none;
+    }
+    .menu-bar-btn{
+        width: 5%;
+        display: flex;
+        margin-left: 25%;
+        justify-content: center;
+        align-items: center;
+        color: #ff014f;
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .introduce-content{
+        flex-direction: column-reverse;
+        border-bottom: none;
+    }
+    .intro-description{
+        width: 100%;
+        margin: 10px 0 0 0;
+        padding-bottom: 50px;
+    }
+    .intro-description .first-line,
+    .intro-description .second-line{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .intro-description .best-skills{
+        padding-bottom: 50px;
+        border-bottom: 1px solid #cfdee7;
+    }
+    .intro-description .find-me,
+    .intro-description .best-skills{
+        position: relative;
+        margin-top: 30px;
+    }
+    .introduce-content .des-img{
+        max-height: 800px;
+        margin: 20px 0 0 25%;
+    }
+    /* Resume */
+    #resume{
+        padding: 50px 0;
+    }
+    .resume-list{
+        flex-direction: column;
+    }
+    .resume-nav-inner li{
+        font-size: 12px;
+    }
+    .resume-nav-inner .active{
+        height: 88px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .resume-single-list{
+        width: 210%;
+    }
+    .resume-list-section .heading .rating{
+        top: 62%;
+        right: -5px;
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+    }
+    .resume-content .inner .branch-circle{
+        right: 106%;
+    }
+    .proskills .progress{
+        width: 200%;
+    }
+    /* Testimonial */
+    .tes-slider{
+        height: 950px;
+        border-bottom: 1px solid #cfdee7;
+    }
+    #testimonial .quotes-icon,
+    .tes-card .branch,
+    .tes-btn{
+        display: none;
+    }
+    .tes-card .card-description,
+    .tes-card .card-infor{
+        width: 100%;
+    }
+    .tes-card .card-description{
+        position: absolute;
+        top: 500px;
+        right: 0;
+        left: 0;
+        height: 320px;
+        margin-bottom: 100px;
+    }
+    .tes-card .card-infor{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .tes-card .card-description .title{
+        font-size: 20px;
+    }
+    .tes-card .card-description .rating{
+        top: 36%
+    }
+    .tes-radio-btns{
+        bottom: 4%;
+    }
+    /* Clients */
+    .clients-content{
+        width: 90%;
+        flex-direction: column;
+    }
+    .clients-content .clients-navbar{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .clients-navbar .inner{
+        width: 100%;
+    }
+    .clients-navbar .inner li{
+        height: 70px;
+    }
+    .clients-content .clients-infor{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .clients-infor .clients-list{
+        width: 100%;
+        padding: 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .clients-list .clients-single-list{
+        width: 48%;
+    }
+    /* Pricing */
+    .pricing-content{
+        flex-direction: column;
+    }
+    .pricing-heading{
+        width: 100%;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .pricing-list{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .pricing-single-list .price{
+        width: 80px;
+        height: 40px;
+        font-size: 20px;
+        top: 80px;
+    }
+    .pricing-single-list .time{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+        bottom: -2%;
+        left: 0;
+    }
+    /* Blog */
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-list{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .blog-list:last-child{
+        margin-bottom: -20px;
+    }
+    /* Contact */
+    .contact-content{
+        flex-direction: column;
+    }
+    .contact-infor,
+    .contact-form{
+        width: 100%;
+        padding: 20px;
+    }
+    .contact-infor{
+        margin-bottom: 40px;
+    }
+    .contact-infor .social-area li{
+        margin-right: 20px;
+    }
+    /* Footer */
+    .footer-infor img{
+        margin-left: 30%;
+    }
+    /* Tablet */
+    @media (min-width: 850px){
+        .menu-bar-btn{
+            margin-left: 35%;
+        }
+    }
+    @media (min-width: 740px) and (max-width: 1023px){
+        .menu-bar-btn{
+            margin-left: 30%;
+        }
+        .resume-content .inner .branch-circle{
+            right: 103.5%;
+        }
+    }
+    /* Mobile */
+    @media (max-width: 500px){
+        #header{
+            height: 90px;
+        }
+        .introduce-content .des-img{
+            height: 300px;
+            margin: 20px 0 0 25%;
+        }
+        .members-logo img{
+            height: 40px;
+        }
+        .members-logo:first-child img{
+            height: 55px;
+        }
+        .member-2{
+            margin-left: 50px;
+        }
+        .member-3{
+            margin-left: 30px;
+        }
+        .menu-bar-btn{
+            width: 5%;
+            display: flex;
+            margin-left: 23%;
+        }
+        .resume-content .inner .branch-circle{
+            right: 108%;
+        }
+        .tes-card .card-description .rating{
+            top: 80%;
+            right: 35%;
+        }
+    }
+    @media (max-width: 400px){
+        .home-icon, .up-icon,
+        .home-icon a, .up-icon a{
+            width: 40px;
+            height: 40px;
+            font-size: 15px;
+        }
+    }
+}
